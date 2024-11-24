@@ -33,14 +33,34 @@
     combos {
         compatible = "zmk,combos";
 
-        Enter-R {
+        combo_entr_r {
             bindings = <&kp ENTER>;
             key-positions = <27 28>;
         };
 
-        Enter-L {
+        combo_entr_l {
             bindings = <&kp ENTER>;
             key-positions = <24 23>;
+        };
+
+        combo_bksp_r {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <15 16>;
+        };
+
+        combo_del_r {
+            bindings = <&kp DELETE>;
+            key-positions = <26 27>;
+        };
+
+        combo_esc_r {
+            bindings = <&kp ESCAPE>;
+            key-positions = <6 7>;
+        };
+
+        combo_esc_l {
+            bindings = <&kp ESCAPE>;
+            key-positions = <2 3>;
         };
     };
 
