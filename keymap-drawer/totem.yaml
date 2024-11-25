@@ -1,0 +1,210 @@
+layout: {qmk_keyboard: totem}
+layers:
+  BASE:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - {t: A, h: LCTRL}
+  - {t: R, h: LALT}
+  - {t: S, h: LCMD}
+  - {t: T, h: LSHFT}
+  - G
+  - M
+  - {t: N, h: RSHFT}
+  - {t: E, h: RCMD}
+  - {t: I, h: RALT}
+  - {t: O, h: RCTRL}
+  - {t: BACKSPACE, h: Meh+ LCMD}
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - {t: '''', h: Sft+AGr+Ctl+ RCMD}
+  - {t: BACKSPACE, h: BT}
+  - {t: TAB, h: NAV_SHORT}
+  - DELETE
+  - {t: BACKSPACE, h: MEDIA}
+  - {t: SPACE, h: NUM_SYM}
+  - ENTER
+  NAV_SHORT:
+  - Gui+ Q
+  - Gui+ W
+  - Gui+ F
+  - '`'
+  - Ctl+Gui+Sft+ C
+  - LEFT
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT
+  - ''
+  - Gui+ A
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Gui+ T, h: LEFT SHIFT}
+  - Gui+Sft+ V
+  - {t: H, h: Ctl+ A}
+  - J
+  - K
+  - {t: L, h: Ctl+ E}
+  - ESCAPE
+  - DELETE
+  - {t: Gui+ Z, h: Gui+Sft+ Z}
+  - Gui+ X
+  - Gui+ C
+  - TAB
+  - {t: Gui+ V, h: Alt+Gui+Sft+ V}
+  - '0'
+  - Ctl+ D
+  - SPACE
+  - Ctl+ U
+  - $
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NUM_SYM:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - '`'
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - {t: '1', h: LCTRL}
+  - {t: '2', h: LEFT ALT}
+  - {t: '3', h: LGUI}
+  - {t: '4', h: LEFT SHIFT}
+  - '5'
+  - '6'
+  - {t: '7', h: RIGHT SHIFT}
+  - {t: '8', h: RGUI}
+  - {t: '9', h: RIGHT ALT}
+  - {t: '0', h: RCTRL}
+  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - {t: F11, h: F12}
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  MEDIA:
+  - BRIGHTNESS DEC
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - BRIGHTNESS INC
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PREV
+  - NEXT
+  - STOP
+  - PLAY PAUSE
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - Gui+Ctl+Sft+ 4
+  - ''
+  - Alt+Gui+ ESCAPE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  BT:
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT PRV
+  - BT NXT
+  - OUT TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR ALL
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [27, 28]
+  k: ENTER
+- p: [24, 23]
+  k: ENTER
+- p: [15, 16]
+  k: BACKSPACE
+- p: [26, 27]
+  k: DELETE
+- p: [6, 7]
+  k: ESCAPE
+- p: [2, 3]
+  k: ESCAPE
