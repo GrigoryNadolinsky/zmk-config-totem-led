@@ -132,18 +132,18 @@ layers:
   - NEXT
   - STOP
   - PLAY PAUSE
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - ''
   - Gui+Ctl+Sft+ 4
   - ''
   - Alt+Gui+ ESCAPE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
