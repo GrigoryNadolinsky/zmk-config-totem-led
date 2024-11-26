@@ -8,7 +8,7 @@
 
 **This repo has been modified for personal use. Please changes section below.**
 
-[Here](https://github.com/GEIGEIGEIST/zmk-config-totem) you can find the original firmware from GEIGEIGEIST
+[Here](https://github.com/GEIGEIGEIST/zmk-config-totem) you can find the original firmware from GEIGEIGEIST \
 [Here](https://github.com/GEIGEIGEIST/totem) you can find the hardware files and build guide.\
 [Here](https://github.com/GEIGEIGEIST/qmk-config-totem) you can find the QMK config for the TOTEM.
 
