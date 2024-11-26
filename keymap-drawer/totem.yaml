@@ -167,8 +167,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&ind_bat'
+  - '&ind_con'
   - BT PRV
   - BT NXT
   - OUT TOG
