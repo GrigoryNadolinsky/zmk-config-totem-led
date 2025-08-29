@@ -1,210 +1,241 @@
-layout: {qmk_keyboard: totem}
+layout: {zmk_keyboard: totem}
 layers:
-  BASE:
+  custom_layout:
   - Q
   - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
+  - E
+  - R
+  - {t: T, h: AltGr+T}
   - Y
-  - ;
-  - {t: A, h: LCTRL}
-  - {t: R, h: LALT}
-  - {t: S, h: LCMD}
-  - {t: T, h: LSHFT}
+  - U
+  - {t: I, h: AltGr+I}
+  - O
+  - P
+  - {t: A, h: LEFT WIN}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LEFT SHIFT}
   - G
-  - M
-  - {t: N, h: RSHFT}
-  - {t: E, h: RCMD}
-  - {t: I, h: RALT}
-  - {t: O, h: RCTRL}
-  - {t: BACKSPACE, h: Meh+ LCMD}
+  - H
+  - {t: J, h: LEFT SHIFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LEFT ALT}
+  - {t: ;, h: LEFT WIN}
+  - AltGr+.
   - Z
   - X
   - C
-  - D
   - V
-  - K
-  - H
+  - B
+  - N
+  - {t: M, h: AltGr+M}
   - ','
   - .
   - /
-  - {t: '''', h: Sft+AGr+Ctl+ RCMD}
-  - {t: BACKSPACE, h: BT}
-  - {t: TAB, h: NAV_SHORT}
-  - DELETE
-  - {t: BACKSPACE, h: MEDIA}
-  - {t: SPACE, h: NUM_SYM}
-  - ENTER
-  NAV_SHORT:
-  - Gui+ Q
-  - Gui+ W
-  - Gui+ F
-  - '`'
-  - Ctl+Gui+Sft+ C
-  - LEFT
-  - DOWN ARROW
-  - UP ARROW
-  - RIGHT
-  - ''
-  - Gui+ A
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Gui+ T, h: LEFT SHIFT}
-  - Gui+Sft+ V
-  - {t: H, h: Ctl+ A}
-  - J
-  - K
-  - {t: L, h: Ctl+ E}
+  - AltGr+,
   - ESCAPE
-  - DELETE
-  - {t: Gui+ Z, h: Gui+Sft+ Z}
-  - Gui+ X
-  - Gui+ C
-  - TAB
-  - {t: Gui+ V, h: Alt+Gui+Sft+ V}
-  - '0'
-  - Ctl+ D
+  - {t: TAB, h: symbol}
   - SPACE
-  - Ctl+ U
-  - $
+  - ENTER
+  - {t: BACKSPACE, h: navigation}
+  - mouse
+  navigation:
+  - HOME
+  - Ctl+LEFT
+  - UP ARROW
+  - Ctl+RIGHT
+  - PAGE UP
+  - +
+  - '7'
+  - '8'
+  - '9'
+  - KP MULTIPLY
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - PAGE DOWN
+  - '-'
+  - '4'
+  - '5'
+  - '6'
+  - KP DIVIDE
+  - {t: ▽, type: trans}
+  - END
+  - Sft+Ctl+LEFT
+  - ''
+  - Sft+Ctl+RIGHT
+  - INSERT
+  - '='
+  - '1'
+  - '2'
+  - '3'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - function
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: function, type: held}
   - {t: ▽, type: trans}
+  symbol:
+  - AltGr+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+6
+  - AltGr+\
+  - AltGr+[
+  - AltGr+]
+  - AltGr+Sft+;
+  - AltGr+'
+  - \
+  - Sft+8
+  - '-'
+  - Sft+=
+  - '='
+  - Sft+7
+  - Sft+9
+  - Sft+0
+  - AltGr+;
+  - AltGr+Sft+'
+  - Sft+5
+  - AltGr+2
+  - AltGr+-
+  - Sft+1
+  - AltGr+/
+  - ''
+  - Sft+-
+  - AltGr+Sft+[
+  - AltGr+Sft+]
+  - AltGr+Sft+,
+  - AltGr+Sft+.
+  - Sft+\
+  - ''
+  - {t: function, type: held}
+  - ''
   - {t: ▽, type: trans}
-  NUM_SYM:
+  - {t: DELETE, h: function}
+  - ''
+  function:
   - F1
   - F2
   - F3
   - F4
+  - BRIGHTNESS INC
+  - VOLUME UP
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - ''
   - F5
-  - '`'
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - {t: '1', h: LCTRL}
-  - {t: '2', h: LEFT ALT}
-  - {t: '3', h: LGUI}
-  - {t: '4', h: LEFT SHIFT}
-  - '5'
-  - '6'
-  - {t: '7', h: RIGHT SHIFT}
-  - {t: '8', h: RGUI}
-  - {t: '9', h: RIGHT ALT}
-  - {t: '0', h: RCTRL}
-  - {t: ▽, type: trans}
   - F6
   - F7
   - F8
+  - BRIGHTNESS DEC
+  - VOLUME DOWN
+  - LEFT SHIFT
+  - LCTRL
+  - LEFT ALT
+  - LEFT WIN
+  - system
   - F9
   - F10
-  - {t: F11, h: F12}
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  MEDIA:
-  - BRIGHTNESS DEC
+  - F11
+  - F12
+  - '&sleep_macro'
   - MUTE
-  - VOL DN
-  - VOL UP
-  - BRIGHTNESS INC
+  - {t: '&bluetooth_macro_1', h: '&greenatom'}
+  - '&bluetooth_macro_2'
+  - {t: '&dongle_macro', h: '&greenatom_aszi'}
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - PREV
-  - NEXT
-  - STOP
-  - PLAY PAUSE
-  - ''
-  - ''
-  - ''
-  - Gui+Ctl+Sft+ 4
-  - ''
-  - Alt+Gui+ ESCAPE
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  BT:
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
   - ''
   - ''
+  - {type: held}
   - ''
-  - ''
-  - ''
-  - '&ind_bat'
-  - '&ind_con'
-  - BT PRV
-  - BT NXT
-  - OUT TOG
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT CLR
-  - {t: BT DISC, h: '0'}
-  - {t: BT DISC, h: '1'}
-  - {t: BT DISC, h: '2'}
-  - {t: BT DISC, h: '3'}
-  - {t: BT DISC, h: '4'}
+  system:
   - ''
   - ''
   - ''
   - ''
   - ''
   - BT CLR ALL
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - '&ind_bat'
+  - '&ind_con'
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  mouse:
+  - ''
+  - ''
+  - '&mmv MOVE_UP'
+  - ''
+  - '&td_test'
+  - ''
+  - ''
+  - '&msc SCRL_UP'
+  - ''
+  - ''
+  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - ''
+  - ''
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
 combos:
-- p: [27, 28]
-  k: ENTER
-- p: [24, 23]
-  k: ENTER
-- p: [15, 16]
-  k: BACKSPACE
-- p: [26, 27]
-  k: DELETE
-- p: [6, 7]
-  k: ESCAPE
-- p: [2, 3]
-  k: ESCAPE
+- p: [16, 12, 13, 17]
+  k: '&switch_language'
+- p: [10, 11, 12, 13, 16, 17, 18, 19, 33, 36]
+  k: '&soft_off'
