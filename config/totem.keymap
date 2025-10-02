@@ -95,7 +95,7 @@
         greenatom: greenatom {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(G) &kp R &kp E &kp E &kp N &kp A &kp T &kp O &kp M &kp LS(G) &kp R &kp EXCL &kp G &kp O &kp R &kp Y &kp N2 &kp ENTER>;
+            bindings = <&kp LS(G) &kp R &kp E &kp E &kp N &kp A &kp T &kp O &kp M &kp LS(G) &kp R &kp EXCL &kp G &kp O &kp R &kp Y &kp NUMBER_3 &kp ENTER>;
             label = "GREENATOM";
         };
 
