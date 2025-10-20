@@ -53,6 +53,13 @@
             #binding-cells = <0>;
             bindings = <&kp RA(PERIOD)>, <&none>, <&kp RA(NUMBER_2)>;
         };
+
+        double_space_to_dot: double_space_to_dot {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DOUBLE_SPACE_TO_DOT";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE>, <&kp RA(PERIOD)>;
+        };
     };
 
     macros {
@@ -128,10 +135,10 @@
 
         main_layer {
             bindings = <
-       &kp Q           &kp W           &kp E        &kp R             &ht RA(T) T    &kp Y      &kp U             &ht RA(I) I  &kp O           &kp P
-       &ht LEFT_WIN A  &ht LEFT_ALT S  &ht LCTRL D  &ht LEFT_SHIFT F  &kp G          &kp H      &ht LEFT_SHIFT J  &ht LCTRL K  &ht LEFT_ALT L  &ht LEFT_WIN SEMICOLON
-&none  &kp Z           &kp X           &kp C        &kp V             &kp B          &kp N      &ht RA(M) M       &kp COMMA    &kp PERIOD      &kp SLASH               &none
-                                       &kp ESCAPE   &lt 2 TAB         &kp SPACE      &kp ENTER  &lt 1 BACKSPACE   &mo 5
+       &kp Q           &kp W           &kp E        &kp R             &ht RA(T) T             &kp Y      &kp U             &ht RA(I) I  &kp O           &kp P
+       &ht LEFT_WIN A  &ht LEFT_ALT S  &ht LCTRL D  &ht LEFT_SHIFT F  &kp G                   &kp H      &ht LEFT_SHIFT J  &ht LCTRL K  &ht LEFT_ALT L  &ht LEFT_WIN SEMICOLON
+&none  &kp Z           &kp X           &kp C        &kp V             &kp B                   &kp N      &ht RA(M) M       &kp COMMA    &kp PERIOD      &kp SLASH               &none
+                                       &kp ESCAPE   &lt 2 TAB         &double_space_to_dot    &kp ENTER  &lt 1 BACKSPACE   &mo 5
             >;
         };
 
@@ -146,10 +153,10 @@
 
         symbol_layer {
             bindings = <
-       &kp RA(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)         &kp LS(NUMBER_4)  &ht LS(N5) LS(NUMBER_6)    &kp RA(BACKSLASH)  &kp RA(LEFT_BRACKET)      &kp RA(RIGHT_BRACKET)      &kp RA(LS(SEMICOLON))  &kp RA(SINGLE_QUOTE)
-       &kp BACKSLASH     &kp LS(NUMBER_8)  &kp MINUS                &kp LS(EQUAL)     &kp EQUAL                  &kp LS(NUMBER_7)   &kp LS(NUMBER_9)          &kp LS(NUMBER_0)           &kp RA(SEMICOLON)      &kp RA(LS(APOSTROPHE))
-&none  &kp RA(NUMBER_2)  &kp RA(MINUS)     &triple_dot_to_ellipsis  &kp RA(COMMA)     &none                      &kp LS(MINUS)      &kp RA(LS(LEFT_BRACKET))  &kp RA(LS(RIGHT_BRACKET))  &kp RA(LS(COMMA))      &kp RA(LS(PERIOD))      &none
-                                           &none                    &none             &none                      &trans             &lt 3 DELETE              &none
+       &kp RA(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &ht LS(N5) LS(NUMBER_6)    &kp RA(BACKSLASH)  &kp RA(LEFT_BRACKET)      &kp RA(RIGHT_BRACKET)      &kp RA(LS(SEMICOLON))  &kp RA(SINGLE_QUOTE)
+       &kp BACKSLASH     &kp LS(NUMBER_8)  &kp MINUS         &kp LS(EQUAL)     &kp EQUAL                  &kp LS(NUMBER_7)   &kp LS(NUMBER_9)          &kp LS(NUMBER_0)           &kp RA(SEMICOLON)      &kp RA(LS(APOSTROPHE))
+&none  &kp RA(MINUS)     &kp LS(NUMBER_1)  &kp RA(SLASH)     &kp RA(COMMA)     &triple_dot_to_ellipsis    &kp LS(MINUS)      &kp RA(LS(LEFT_BRACKET))  &kp RA(LS(RIGHT_BRACKET))  &kp RA(LS(COMMA))      &kp RA(LS(PERIOD))      &none
+                                           &none             &none             &none                      &trans             &lt 3 DELETE              &none
             >;
         };
 
