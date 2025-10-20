@@ -50,7 +50,7 @@ layers:
   - '8'
   - '9'
   - KP MULTIPLY
-  - CAPSLOCK
+  - C
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
