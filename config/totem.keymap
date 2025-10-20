@@ -60,6 +60,13 @@
             #binding-cells = <0>;
             bindings = <&kp SPACE>, <&kp RA(PERIOD)>;
         };
+
+        backspace_to_navigation_layer: backspace_to_navigation_layer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "BACKSPACE_TO_NAVIGATION_LAYER";
+            #binding-cells = <0>;
+            bindings = <&lt 1 BACKSPACE>, <&kp BACKSPACE>;
+        };
     };
 
     macros {
@@ -135,10 +142,10 @@
 
         main_layer {
             bindings = <
-       &kp Q           &kp W           &kp E        &kp R             &ht RA(T) T             &kp Y      &kp U             &ht RA(I) I  &kp O           &kp P
-       &ht LEFT_WIN A  &ht LEFT_ALT S  &ht LCTRL D  &ht LEFT_SHIFT F  &kp G                   &kp H      &ht LEFT_SHIFT J  &ht LCTRL K  &ht LEFT_ALT L  &ht LEFT_WIN SEMICOLON
-&none  &kp Z           &kp X           &kp C        &kp V             &kp B                   &kp N      &ht RA(M) M       &kp COMMA    &kp PERIOD      &kp SLASH               &none
-                                       &kp ESCAPE   &lt 2 TAB         &double_space_to_dot    &kp ENTER  &lt 1 BACKSPACE   &mo 5
+       &kp Q           &kp W           &kp E        &kp R             &ht RA(T) T             &kp Y      &kp U                           &ht RA(I) I  &kp O           &kp P
+       &ht LEFT_WIN A  &ht LEFT_ALT S  &ht LCTRL D  &ht LEFT_SHIFT F  &kp G                   &kp H      &ht LEFT_SHIFT J                &ht LCTRL K  &ht LEFT_ALT L  &ht LEFT_WIN SEMICOLON
+&none  &kp Z           &kp X           &kp C        &kp V             &kp B                   &kp N      &ht RA(M) M                     &kp COMMA    &kp PERIOD      &kp SLASH               &none
+                                       &kp ESCAPE   &lt 2 TAB         &double_space_to_dot    &kp ENTER  &backspace_to_navigation_layer  &mo 5
             >;
         };
 
