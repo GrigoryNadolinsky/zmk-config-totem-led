@@ -21,7 +21,7 @@ layers:
   - {t: K, h: LCTRL}
   - {t: L, h: LEFT ALT}
   - {t: ;, h: LEFT WIN}
-  - AltGr+.
+  - ''
   - Z
   - X
   - C
@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - /
-  - AltGr+,
+  - ''
   - ESCAPE
   - {t: TAB, h: symbol}
   - SPACE
@@ -83,7 +83,7 @@ layers:
   - Sft+2
   - Sft+3
   - Sft+4
-  - Sft+6
+  - {t: Sft+6, h: Sft+5}
   - AltGr+\
   - AltGr+[
   - AltGr+]
@@ -99,18 +99,18 @@ layers:
   - Sft+0
   - AltGr+;
   - AltGr+Sft+'
-  - Sft+5
+  - ''
   - AltGr+2
   - AltGr+-
-  - Sft+1
-  - AltGr+/
+  - '&triple_dot_to_ellipsis'
+  - AltGr+,
   - ''
   - Sft+-
   - AltGr+Sft+[
   - AltGr+Sft+]
   - AltGr+Sft+,
   - AltGr+Sft+.
-  - Sft+\
+  - ''
   - ''
   - {type: held}
   - ''
@@ -138,12 +138,12 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT WIN
-  - system
+  - ''
   - F9
   - F10
   - F11
   - F12
-  - '&sleep_macro'
+  - system
   - MUTE
   - {t: '&bluetooth_macro_1', h: '&greenatom'}
   - '&bluetooth_macro_2'
@@ -177,12 +177,12 @@ layers:
   - '&ind_con'
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - ''
   - ''
   - ''
@@ -200,7 +200,7 @@ layers:
   - ''
   - '&mmv MOVE_UP'
   - ''
-  - '&td_test'
+  - ''
   - ''
   - ''
   - '&msc SCRL_UP'
