@@ -35,7 +35,7 @@ layers:
   - ''
   - ESCAPE
   - {t: TAB, h: symbol}
-  - SPACE
+  - '&double_space_to_dot'
   - ENTER
   - {t: BACKSPACE, h: navigation}
   - mouse
@@ -100,11 +100,11 @@ layers:
   - AltGr+;
   - AltGr+Sft+'
   - ''
-  - AltGr+2
   - AltGr+-
-  - '&triple_dot_to_ellipsis'
+  - Sft+1
+  - AltGr+/
   - AltGr+,
-  - ''
+  - '&triple_dot_to_ellipsis'
   - Sft+-
   - AltGr+Sft+[
   - AltGr+Sft+]
