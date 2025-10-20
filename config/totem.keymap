@@ -113,11 +113,13 @@
         changing_the_language {
             bindings = <&switch_language>;
             key-positions = <16 12 13 17>;
+            layers = <0>;
         };
 
         bootloader_combo {
             bindings = <&bootloader>;
             key-positions = <6 7 8 9>;
+            layers = <4>;
         };
     };
 
