@@ -75,9 +75,9 @@ layers:
   - {t: ▽, type: trans}
   - function
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: function, type: held}
-  - {t: ▽, type: trans}
+  - ''
+  - {type: held}
+  - ''
   symbol:
   - AltGr+1
   - Sft+2
@@ -112,7 +112,7 @@ layers:
   - AltGr+Sft+.
   - Sft+\
   - ''
-  - {t: function, type: held}
+  - {type: held}
   - ''
   - {t: ▽, type: trans}
   - {t: DELETE, h: function}
