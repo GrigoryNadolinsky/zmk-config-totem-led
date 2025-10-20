@@ -140,7 +140,7 @@
         &kp HOME      &kp LC(LEFT)      &kp UP_ARROW    &kp LC(RIGHT)      &kp PAGE_UP      &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY
         &kp CAPSLOCK  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp PAGE_DOWN    &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_DIVIDE
 &trans  &kp END       &kp LS(LC(LEFT))  &none           &kp LS(LC(RIGHT))  &kp INSERT       &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0     &trans
-                                        &trans          &mo 3              &trans           &trans     &mo 3         &trans
+                                        &trans          &mo 3              &trans           &none      &none         &none
             >;
         };
 
@@ -149,7 +149,7 @@
                   &kp RA(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_6)    &kp RA(BACKSLASH)  &kp RA(LEFT_BRACKET)      &kp RA(RIGHT_BRACKET)      &kp RA(LS(SEMICOLON))  &kp RA(SINGLE_QUOTE)
                   &kp BACKSLASH     &kp LS(NUMBER_8)  &kp MINUS         &kp LS(EQUAL)     &kp EQUAL           &kp LS(NUMBER_7)   &kp LS(NUMBER_9)          &kp LS(NUMBER_0)           &kp RA(SEMICOLON)      &kp RA(LS(APOSTROPHE))
 &kp LS(NUMBER_5)  &kp RA(NUMBER_2)  &kp RA(MINUS)     &kp LS(NUMBER_1)  &kp RA(SLASH)     &none               &kp LS(MINUS)      &kp RA(LS(LEFT_BRACKET))  &kp RA(LS(RIGHT_BRACKET))  &kp RA(LS(COMMA))      &kp RA(LS(PERIOD))      &kp LS(BACKSLASH)
-                                                      &none             &mo 3             &none               &trans             &lt 3 DELETE              &none
+                                                      &none             &none             &none               &trans             &lt 3 DELETE              &none
             >;
         };
 
