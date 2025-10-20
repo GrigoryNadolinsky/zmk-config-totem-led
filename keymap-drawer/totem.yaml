@@ -37,7 +37,7 @@ layers:
   - {t: TAB, h: symbol}
   - '&double_space_to_dot'
   - ENTER
-  - '&backspace_to_navigation_layer'
+  - {t: BACKSPACE, h: navigation}
   - mouse
   navigation:
   - HOME
@@ -76,7 +76,7 @@ layers:
   - function
   - {t: ▽, type: trans}
   - ''
-  - ''
+  - {type: held}
   - ''
   symbol:
   - AltGr+1
@@ -154,7 +154,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   system:
   - ''
@@ -193,7 +193,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   mouse:
   - ''
