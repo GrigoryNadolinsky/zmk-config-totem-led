@@ -774,16 +774,17 @@ path.combo {
 <g transform="translate(580, 168)" class="key keypos-27">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;bluetooth…</tspan></text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 70%">&amp;greenatom</tspan></text>
+<text x="0" y="24" class="key hold">&amp;pswd</text>
 </g>
 <g transform="translate(639, 140)" class="key keypos-28">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;bluetooth…</tspan></text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">&amp;pswd_enter</tspan></text>
 </g>
 <g transform="translate(699, 174) rotate(4.0)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;dongle_ma…</tspan></text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">&amp;greenatom…</tspan></text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">&amp;lgn_pswd_…</tspan></text>
 </g>
 <g transform="translate(754, 223) rotate(10.0)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
